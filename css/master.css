@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+#app {
+    margin: auto;
+    margin-top: 100px;
+    width: 400px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+#app > * {
+    width: 100%;
+    margin-bottom: 15px;
+    display: block;
+    font-size: 150%;
+}
+
+#app > *:last-child {
+    margin-bottom: 0;
+}
+
+#app #bmi-display-container {
+    padding: 15px 0;
+    color: white;
+    font-size: 250%;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+}
+
+#app #bmi-display-container.underweight { background-color: #5f71e3; }
+#app #bmi-display-container.normal { background-color: #0cad1a; }
+#app #bmi-display-container.overweight { background-color: #f2a705; }
+#app #bmi-display-container.obese { background-color: #e32d39; }
+
+#app #bmi-range-text {
+    font-size: 50% !important;
+    font-weight: normal;
+}
+
+#app label {
+    font-weight: bold;
+    font-size: 125%;
+}
+
+#app input {
+    padding: 10px;
+}
+
+#app #bottom-msg {
+    font-size: 100%;
+    text-align: center;
+    color: #aaa;
+}
